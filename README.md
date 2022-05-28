@@ -4,7 +4,7 @@ In CommunityToolkit.Mvvm, when a tuple containing nullable reference types is us
 
 ```cs
 [ICommand]
-void M1((string? text, bool isBusy)
+void M1((string? text, bool isBusy) parameter)
 {
 }
 ```
@@ -12,8 +12,9 @@ void M1((string? text, bool isBusy)
 generates
 
 ```cs
-public IRelayCommand<string text, bool isBusy> { get; }
-// Should be `IRelayCommand<string? text, bool isBusy>`
+public IRelayCommand<(string text, bool isBusy)> { get; }
+// Incorrect omitted the nullable string
+// Should be `IRelayCommand<(string? text, bool isBusy)>`
 ```
 
 ## Reproduction Steps
