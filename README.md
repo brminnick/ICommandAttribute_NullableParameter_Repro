@@ -13,7 +13,7 @@ generates
 
 ```cs
 public IRelayCommand<(string text, bool isBusy)> { get; }
-// Incorrect omitted the nullable string
+// Incorrectly omitted the nullable string
 // Should be `IRelayCommand<(string? text, bool isBusy)>`
 ```
 
