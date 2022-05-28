@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICommandAttribute_NullableParameter_Repro", "ICommandAttribute_NullableParameter_Repro\ICommandAttribute_NullableParameter_Repro.csproj", "{F9EECF7B-9A02-46E2-923A-76EBF23D146C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9EECF7B-9A02-46E2-923A-76EBF23D146C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EECF7B-9A02-46E2-923A-76EBF23D146C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EECF7B-9A02-46E2-923A-76EBF23D146C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EECF7B-9A02-46E2-923A-76EBF23D146C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {734E06EE-4706-4DF5-B402-0FA17E6A843F}
+	EndGlobalSection
+EndGlobal
